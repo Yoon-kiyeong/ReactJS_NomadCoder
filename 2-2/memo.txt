@@ -1,0 +1,18 @@
+암기할 필요 없이 이해하려고 하자.
+
+React JS의 규칙 중 하나는 HTMl을 이 페이지에 직접 작성하지 않는 것
+React를 import 했기 때문에 createElement Function을 가진 React object에 접근할 수 있는 것
+createElement Function 괄호 안에는 우리가 생성하고자 하는 HTML 태그와 똑같은 이름이어야 한다
+
+React JS는 어플리케이션이 아주 interactive하도록 만들어 주는 library
+React-dom은 library, 또는 package인데, 모든 React element들을 HTMl body에 둘 수 있도록 해준다.
+render의 의미는 React element를 가지고 HTML로 만들어 배치한다는 것 -> 사용자에게 보여준다.
+ReactDOM은 어디에 두어야 하는지 모름 그래서 보통 body에 id="root"를 만들어서 span을 root 안에 두라고 함
+
+React.createElement는 어떤 태그든 가능, property, style도 가능
+
+바닐라JS는 HTML -> JS 순서
+리액트는 JS -> HTML 순서
+
+JS가 element를 생성하고 React JS가 그것을 HTML로 번역하는 것
+React JS는 업데이트 해야 하는 HTML을 업데이트 할 수 있음
