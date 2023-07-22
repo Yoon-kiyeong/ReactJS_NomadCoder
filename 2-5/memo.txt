@@ -1,0 +1,7 @@
+JSX = JavaScript를 확장시킨 문법
+보통의 HTML과 비슷, 그러나 property를 HTML 태그의 속성처럼 적으면 된다.
+스타일은 {} 2개
+JSX를 브라우저가 온전히 이해하지 못하므로 이해할 수 있게
+https://unpkg.com/@babel/standalone/babel.min.js 를 설치해야한다
+-> JSX로 적은 코드를 브라우저가 이해할 수 있는 형태로 바꿔줌
+바벨을 가져온 뒤 script type="text/babel"로 적어줘야 인식한다.
